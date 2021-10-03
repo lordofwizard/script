@@ -1,0 +1,19 @@
+#!/bin/sh
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip -O /tmp/ngrok.zip
+unzip /tmp/ngrok.zip -d $HOME/mcserver/
+echo -e "First go to https://dashboard.ngrok.com/ 
+1. There make a account.
+2. Sign IN
+3. Copy your authtoken and paste it here with (CTRL + V)
+AutoToken : "
+read AUTHTOKEN
+$HOME/mcserver/ngrok authtoken $AUTHTOKEN
+echo "Authtoken has been set HURRAY"
+cd $HOME/mcserver/
+echo "./ngrok tcp 25565" > $HOME/mcserver/startNgrok
+echo "screen -S ngrok -d -m ./startNgrok" >> startJavaServer
+echo "screen -S ngrok -d -m ./startNgrok" >> startBedrockServer
+chmod +x startNgrok
+echo "NGROK is installed"
+
+
