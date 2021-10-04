@@ -11,8 +11,8 @@ $HOME/mcserver/ngrok authtoken $AUTHTOKEN
 echo "Authtoken has been set HURRAY"
 cd $HOME/mcserver/
 echo "./ngrok tcp 25565" > $HOME/mcserver/startNgrok
-echo "screen -S ngrok -d -m ./startNgrok" >> startJavaServer
-echo "screen -S ngrok -d -m ./startNgrok" >> startBedrockServer
+echo "screen -S ngrok -d -m ./startNgrok" >> startserver
+
 chmod +x startNgrok
 echo "NGROK is installed"
 
