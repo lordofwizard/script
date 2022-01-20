@@ -6,5 +6,6 @@ read PROJ_FOLDER
 mkdir -p $PROJ_FOLDER
 cd $PROJ_FOLDER
 curl -s https://raw.githubusercontent.com/lordofwizard/script/main/code.cpp > code.cpp
+curl -s https://raw.githubusercontent.com/lordofwizard/script/main/Makefile > Makefile
 git add ./
 git add code.cpp
