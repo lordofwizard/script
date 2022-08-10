@@ -1,0 +1,9 @@
+#!/bin/bash
+
+B3=$(xinput list-props "DELL0A12:00 06CB:CDD6 Touchpad" | grep "libinput Disable While Typing Enabled" | grep -v "Default" | grep -oE "\(.+\)" | sed "s/(//g" | sed "s/)//g")
+
+xinput set-prop "DELL0A12:00 06CB:CDD6 Touchpad" $B3 0
+
+NS=$(xinput list-props "DELL0A12:00 06CB:CDD6 Touchpad" | grep "libinput Natural Scrolling Enabled" | grep -v "Default" | grep -oE "\(.+\)" | sed "s/(//g" | sed "s/)//g")
+xinput set-prop "DELL0A12:00 06CB:CDD6 Touchpad" "${NS}" 0
+
