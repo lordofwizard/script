@@ -16,4 +16,3 @@ echo "screen -S ngrok -d -m ./startNgrok" >> startserver
 chmod +x startNgrok
 echo "NGROK is installed"
 
-

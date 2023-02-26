@@ -16,5 +16,7 @@ cargo new "$DIRECTORY"
 
 curl -s "https://gist.githubusercontent.com/lordofwizard/2cc90c54095ff4835fc93dc9b62eb316/raw/42eae7e8bb4b331f41679b794bb5fa8209ca55ee/Rust%2520Template" > "$DIRECTORY/src/main.rs"
 
-lvim +'14|norm! zz' "$DIRECTORY/src/main.rs"
-
+#lvim +'14|norm! zz' "$DIRECTORY/src/main.rs"
+#tmux new -s foo '~/.local/bin/lvim +"14|norm! zz" {"$DIRECTORY/src/main.rs"} ; $SHELL'
+#tmux new -s foo "~/.local/bin/lvim +'14|norm! zz' '$DIRECTORY/src/main.rs' ; $SHELL"
+tmux new-session -s prog "~/.local/bin/lvim +'14|norm! zz' '$DIRECTORY/src/main.rs'"
