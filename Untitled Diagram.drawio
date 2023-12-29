@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-29T12:15:06.075Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="sPFw7AN7qa7o5XpwJfgb" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-29T13:11:52.645Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="MSHYSYSezyfQWrIXMFdG" version="22.1.15" type="github">
   <diagram name="Page-1" id="8VOXqZR4LBoCSmC004xK">
-    <mxGraphModel dx="2270" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2334" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -359,22 +359,14 @@
         <mxCell id="c0Pf5gPrulNi_Anjky-m-17" value="&lt;div&gt;dmsg (Display SSID &lt;br&gt;&lt;/div&gt;&lt;div&gt;connected to SSID)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="2550" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="c0Pf5gPrulNi_Anjky-m-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="c0Pf5gPrulNi_Anjky-m-19" target="c0Pf5gPrulNi_Anjky-m-32">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="1850" as="targetPoint" />
-            <mxPoint x="40" y="2610" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="-40" y="2610" />
-              <mxPoint x="-40" y="1850" />
-              <mxPoint x="378" y="1850" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="c0Pf5gPrulNi_Anjky-m-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="c0Pf5gPrulNi_Anjky-m-19" target="c0Pf5gPrulNi_Anjky-m-34">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="c0Pf5gPrulNi_Anjky-m-19" value="Didn&#39;t connect to wifi&lt;br&gt;timeout for &lt;br&gt;5 seconds" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="2580" width="120" height="60" as="geometry" />
+          <mxGeometry x="170" y="2620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="c0Pf5gPrulNi_Anjky-m-22" value="&lt;div&gt;+ EXIT&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="250" y="1850" width="60" height="30" as="geometry" />
+          <mxGeometry y="1970" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="c0Pf5gPrulNi_Anjky-m-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="c0Pf5gPrulNi_Anjky-m-23" target="CyJOnHxQEZw6uioQjQEH-101">
           <mxGeometry relative="1" as="geometry">
@@ -406,6 +398,21 @@
         </mxCell>
         <mxCell id="c0Pf5gPrulNi_Anjky-m-32" value="connection buffer data" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="1850" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c0Pf5gPrulNi_Anjky-m-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="c0Pf5gPrulNi_Anjky-m-34" target="c0Pf5gPrulNi_Anjky-m-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="1310" as="targetPoint" />
+            <mxPoint x="70.00347826086974" y="2550" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="71" y="2520" />
+              <mxPoint x="71" y="2000" />
+              <mxPoint x="10" y="2000" />
+              <mxPoint x="10" y="1325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c0Pf5gPrulNi_Anjky-m-34" value="&lt;div&gt;Couldn&#39;t connect&lt;/div&gt;&lt;div&gt;to wifi.&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="2520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
