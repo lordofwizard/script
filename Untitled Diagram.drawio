@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-29T09:03:01.774Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="nx7YKl41mA22yCmo62od" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-29T09:08:33.563Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="S4Y0XZUqIK_-oWQix0Ql" version="22.1.15" type="github">
   <diagram name="Page-1" id="8VOXqZR4LBoCSmC004xK">
     <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -49,11 +49,20 @@
         <mxCell id="CyJOnHxQEZw6uioQjQEH-6" value="hotspot_forced_up" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="990" y="690" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CyJOnHxQEZw6uioQjQEH-7" target="CyJOnHxQEZw6uioQjQEH-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CyJOnHxQEZw6uioQjQEH-7" target="CyJOnHxQEZw6uioQjQEH-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CyJOnHxQEZw6uioQjQEH-7" value="network_status" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1030" y="430" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CyJOnHxQEZw6uioQjQEH-14" target="CyJOnHxQEZw6uioQjQEH-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CyJOnHxQEZw6uioQjQEH-14" value="hotspot_debug" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1240" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="1560" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CyJOnHxQEZw6uioQjQEH-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CyJOnHxQEZw6uioQjQEH-16" target="CyJOnHxQEZw6uioQjQEH-19">
           <mxGeometry relative="1" as="geometry" />
@@ -88,8 +97,8 @@
         <mxCell id="CyJOnHxQEZw6uioQjQEH-26" value="&lt;div&gt;Check whether&lt;/div&gt;&lt;div&gt;it is connect to a network or not&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="395" y="540" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CyJOnHxQEZw6uioQjQEH-28" value="&lt;div&gt;Hotspot debug&lt;/div&gt;&lt;div&gt;makes orphan hotspot,&lt;/div&gt;&lt;div&gt;it can distrupt the &lt;br&gt;&lt;/div&gt;&lt;div&gt;normal working of the application&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="1440" y="310" width="140" height="160" as="geometry" />
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-28" value="&lt;div&gt;Hotspot debug&lt;/div&gt;&lt;div&gt;makes orphan hotspot,&lt;/div&gt;&lt;div&gt;it can distrupt the &lt;br&gt;&lt;/div&gt;&lt;div&gt;normal working of the application&lt;br&gt;Potentaily create&lt;br&gt;Hotspot, Hotspot-1, Hotspot-2 connections&lt;br&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="350" width="140" height="160" as="geometry" />
         </mxCell>
         <mxCell id="CyJOnHxQEZw6uioQjQEH-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CyJOnHxQEZw6uioQjQEH-32" target="CyJOnHxQEZw6uioQjQEH-40">
           <mxGeometry relative="1" as="geometry">
@@ -196,6 +205,45 @@
         </mxCell>
         <mxCell id="CyJOnHxQEZw6uioQjQEH-75" value="Nothing&lt;br&gt;is ON" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="555" y="560" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CyJOnHxQEZw6uioQjQEH-78" target="CyJOnHxQEZw6uioQjQEH-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CyJOnHxQEZw6uioQjQEH-78" target="CyJOnHxQEZw6uioQjQEH-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-78" value="&lt;div&gt;Check, type of connection&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CyJOnHxQEZw6uioQjQEH-80" target="CyJOnHxQEZw6uioQjQEH-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-80" value="wifi" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-82" value="print, current connected&lt;br&gt;wifi. ssid&#39;s" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CyJOnHxQEZw6uioQjQEH-84" target="CyJOnHxQEZw6uioQjQEH-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-84" value="&lt;div&gt;Hotspot&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-86" value="show it&#39;s credentials" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CyJOnHxQEZw6uioQjQEH-88" target="CyJOnHxQEZw6uioQjQEH-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-88" value="&lt;div&gt;Connected to nothing&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-90" value="&lt;div&gt;Show, &quot;Aint connected&quot;&lt;/div&gt;&lt;div&gt;(show help print message)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="808" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-93" value="Spin Up Hotspot, without any question" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1570" y="690" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
