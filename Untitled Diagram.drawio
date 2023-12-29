@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-29T08:29:24.250Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="jlAO21TcSQIHnSoUsT6b" version="22.1.15" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-29T08:48:21.380Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="PbgEpsdXyoCbpIQY2akl" version="22.1.15" type="github">
   <diagram name="Page-1" id="8VOXqZR4LBoCSmC004xK">
     <mxGraphModel dx="1687" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -31,8 +31,14 @@
         <mxCell id="CyJOnHxQEZw6uioQjQEH-3" value="&lt;div&gt;wifi_connect&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="150" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CyJOnHxQEZw6uioQjQEH-4" target="CyJOnHxQEZw6uioQjQEH-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="CyJOnHxQEZw6uioQjQEH-4" value="hotspot_up" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CyJOnHxQEZw6uioQjQEH-5" target="CyJOnHxQEZw6uioQjQEH-52">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CyJOnHxQEZw6uioQjQEH-5" value="hotspot_down" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="150" width="120" height="60" as="geometry" />
@@ -72,6 +78,56 @@
         </mxCell>
         <mxCell id="CyJOnHxQEZw6uioQjQEH-20" value="&lt;div&gt;nmcli get wifi device data&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="CyJOnHxQEZw6uioQjQEH-26" target="CyJOnHxQEZw6uioQjQEH-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-26" value="&lt;div&gt;Check whether&lt;/div&gt;&lt;div&gt;it is connect to a network or not&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-28" value="&lt;div&gt;Hotspot debug&lt;/div&gt;&lt;div&gt;makes orphan hotspot,&lt;/div&gt;&lt;div&gt;it can distrupt the &lt;br&gt;&lt;/div&gt;&lt;div&gt;normal working of the application&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="30" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-29" value="&lt;div&gt;if connected to wifi&lt;/div&gt;&lt;div&gt;don&#39;t allow it to start a wifi connection(&lt;br&gt;it will close ssh)&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CyJOnHxQEZw6uioQjQEH-32" target="CyJOnHxQEZw6uioQjQEH-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CyJOnHxQEZw6uioQjQEH-32" target="CyJOnHxQEZw6uioQjQEH-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-32" value="&lt;div&gt;if connected to wifi&lt;/div&gt;&lt;div&gt;don&#39;t allow it to start a wifi connection(&lt;br&gt;it will close ssh)&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="340" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-39" value="YES?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="585" y="398" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-40" value="&lt;div&gt;exit&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CyJOnHxQEZw6uioQjQEH-43" target="CyJOnHxQEZw6uioQjQEH-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-43" value="Start hotspot &lt;br&gt;using default &lt;br&gt;credentials" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-45" value="NO?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="485" y="528" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CyJOnHxQEZw6uioQjQEH-46" target="CyJOnHxQEZw6uioQjQEH-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-46" value="SSID : TortoiseBot_Hotspot&lt;br&gt;pw : tortoisebot" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-48" value="&lt;div&gt;spin_up_hotspot&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CyJOnHxQEZw6uioQjQEH-52" value="check &lt;br&gt;type of connection" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
