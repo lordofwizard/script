@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-01T11:43:56.112Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="fQrScrHVON9gf1n-kCK5" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-01T12:12:10.747Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="IFEBUfQjAgxd7g0cdDxv" version="22.1.16" type="github">
   <diagram name="Page-1" id="8VOXqZR4LBoCSmC004xK">
-    <mxGraphModel dx="2443" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2216" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -428,6 +428,132 @@
         </mxCell>
         <mxCell id="c0Pf5gPrulNi_Anjky-m-34" value="&lt;div&gt;Couldn&#39;t connect&lt;/div&gt;&lt;div&gt;to wifi.&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="2520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZZyEvZK1vgWe18JLgPj-2" target="GZZyEvZK1vgWe18JLgPj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-2" value="grab ssid and password" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZZyEvZK1vgWe18JLgPj-3" target="GZZyEvZK1vgWe18JLgPj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-3" value="convert into json string" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZZyEvZK1vgWe18JLgPj-4" target="GZZyEvZK1vgWe18JLgPj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-4" value="&lt;div&gt;check directory&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZZyEvZK1vgWe18JLgPj-6" target="GZZyEvZK1vgWe18JLgPj-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZZyEvZK1vgWe18JLgPj-6" target="GZZyEvZK1vgWe18JLgPj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-6" value="directory&lt;br&gt;exists?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1860" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GZZyEvZK1vgWe18JLgPj-11" target="GZZyEvZK1vgWe18JLgPj-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-11" value="create it" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZZyEvZK1vgWe18JLgPj-13" target="GZZyEvZK1vgWe18JLgPj-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-13" value="&lt;div&gt;open it&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="2030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-15" value="NO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="1868" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-16" value="yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1958" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZZyEvZK1vgWe18JLgPj-24" target="GZZyEvZK1vgWe18JLgPj-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZZyEvZK1vgWe18JLgPj-24" target="GZZyEvZK1vgWe18JLgPj-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-24" value="&lt;div&gt;pass.json&lt;br&gt;file exists?&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="2160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GZZyEvZK1vgWe18JLgPj-26" target="GZZyEvZK1vgWe18JLgPj-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1290" y="2360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GZZyEvZK1vgWe18JLgPj-26" target="GZZyEvZK1vgWe18JLgPj-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="2120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1290" y="2120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-26" value="create it" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="2170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZZyEvZK1vgWe18JLgPj-28" target="GZZyEvZK1vgWe18JLgPj-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-28" value="open it" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="2330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-33" value="&lt;div&gt;No&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="2173" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-34" value="YES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="2260" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZZyEvZK1vgWe18JLgPj-36" target="GZZyEvZK1vgWe18JLgPj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GZZyEvZK1vgWe18JLgPj-36" target="GZZyEvZK1vgWe18JLgPj-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="1967.6190476190477" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="990" y="1400" />
+              <mxPoint x="990" y="2200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-36" value="password &lt;br&gt;putin" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="1360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-38" value="worked" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="1478" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-40" value="&lt;div&gt;didn&#39;t work&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1408" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-42" value="&lt;div&gt;Station mode&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="2090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-43" value="condition if password log in failed&lt;br&gt;,and file didn&#39;t had contents" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="2080" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-44" value="&lt;div&gt;New functionality&lt;/div&gt;, maybe add &lt;br&gt;encryption layer&lt;br&gt;(use pyencrypt)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="1260" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-45" value="&lt;div align=&quot;left&quot;&gt;condition &lt;br&gt;if wifi worked, but now are are just storing it&#39;s&lt;br&gt;appropriate information, in the db.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="2250" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GZZyEvZK1vgWe18JLgPj-46" target="GZZyEvZK1vgWe18JLgPj-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-46" value="overwrite the json file with ssid, and password" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="2470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GZZyEvZK1vgWe18JLgPj-48" value="&lt;div&gt;exit&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="2610" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
